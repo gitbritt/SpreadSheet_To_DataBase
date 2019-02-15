@@ -60,7 +60,7 @@
             <p class="auto-style8">Password :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="Database_password" runat="server"></asp:TextBox>
             </p>
             <p class="auto-style7">
-                <asp:Button ID="Connect_button" runat="server" OnClick="Connect_button_Click" Text="Connect to Database" />
+                <asp:Button ID="Connect_button" runat="server" OnClick="Connect_button_Click" Text="Connect to Database"  UseSubmitBehavior="false" />
             </p>
             <p>&nbsp;</p>
             
@@ -84,9 +84,8 @@
                         <td class="auto-style4" runat="server" id="DB_Preview">&nbsp;</td>
                     </tr>
             </table>
+            <asp:Button ID="Preview_button" runat="server" Text="Preview" OnClick="Preview_button_Click" UseSubmitBehavior="False" />
         </p>
-        <p>
-            &nbsp;</p>
         <p>
             <asp:Button ID="Start" runat="server" Text="Start" />
         </p>

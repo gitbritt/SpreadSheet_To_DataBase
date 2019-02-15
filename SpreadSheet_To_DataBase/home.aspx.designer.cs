@@ -130,6 +130,15 @@ namespace SpreadSheet_To_DataBase {
         protected global::System.Web.UI.HtmlControls.HtmlTableCell DB_Preview;
         
         /// <summary>
+        /// Preview_button control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Preview_button;
+        
+        /// <summary>
         /// Start control.
         /// </summary>
         /// <remarks>

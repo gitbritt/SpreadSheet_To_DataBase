@@ -12,19 +12,15 @@ namespace SpreadSheet_To_DataBase
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        string conn_string;
-        SqlConnection conn;
-        int connection;
-
-
+        
+        public string [] array;
 
 
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            
-
         }
+
 
         protected void Submit_button_Click(object sender, EventArgs e)
         {
@@ -52,47 +48,55 @@ namespace SpreadSheet_To_DataBase
 
         }
 
+
+
         protected void Connect_button_Click(object sender, EventArgs e)
         {
             //Connect to DB when clicked
+
+            string conn_string;
             string Database_host_str = Database_host.Text;
             string Database_name_str = Database_name.Text;
             string Account_auth_str;
             string Database_username_str = Database_username.Text;
             string Database_password_str = Database_password.Text;
 
-            //account_authorized.CheckedChanged("test", true);
             if (account_authorized.Checked)
                 Account_auth_str = "true";
             else
                 Account_auth_str = "false";
 
             conn_string = "Data Source =" + Database_host_str + ";" +
-                          "Initial Catalog= " + Database_name_str + ";" +
-                          "Integrated Security=" + Account_auth_str;
-            conn = new SqlConnection(conn_string);
+                         "Initial Catalog= " + Database_name_str + ";" +
+                         "Integrated Security=" + Account_auth_str;
+            array = new string[1] { conn_string };
 
+            //connect();
+
+
+        }
+
+        protected SqlConnection connect()
+        {
+
+            SqlConnection conn = new SqlConnection(array[0]);
             try
             {
                 conn.Open();
-
                 ClientScript.RegisterStartupScript(this.GetType(), "Connection Update", "alert('Connection successful');", true);
-                connection = 1;
                 Select_Table_SelectedIndexChanged(null, null);
             }
             catch
             {
-                connection = 0;
+
                 ClientScript.RegisterStartupScript(this.GetType(), "Connection Update", "alert('Connection failed');", true);
             }
-            conn.Close();
+            return conn;
         }
 
         protected void Select_Table_SelectedIndexChanged(object sender, BulletedListEventArgs e)
         {
             
-            if (connection == 1 )//Populates the Table dropdown
-            {
                 
                 SqlCommand get_tables = new SqlCommand("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES", conn);
                 SqlDataReader reader = get_tables.ExecuteReader();
@@ -101,20 +105,34 @@ namespace SpreadSheet_To_DataBase
                 while (reader.Read())
                 {
                     
-                    Select_Table.Items.Insert(0, new ListItem(reader["TABLE_NAME"].ToString(), i.ToString()));
+                    Select_Table.Items.Add(reader["TABLE_NAME"].ToString());
                     i++;
 
                 }
-                reader.Close();
-                System.Diagnostics.Debug.WriteLine("test");
-            }
-            else
-            {
-                
-                string selected_table = Request.Form[Select_Table.UniqueID];
-                System.Diagnostics.Debug.WriteLine(selected_table);
-
-            }
+            System.Diagnostics.Debug.WriteLine("test 1 " + conn);
+            reader.Close();
+                System.Diagnostics.Debug.WriteLine("test 2 " + conn);
+            
         }
+
+        protected void test()
+        {
+            System.Diagnostics.Debug.WriteLine("test 2.5 " + conn);
+        }
+
+
+        protected void Preview_button_Click(object sender, EventArgs e)
+        {
+
+            System.Diagnostics.Debug.WriteLine("test 3 " + conn_string + " " + conn);
+            test();
+            //SqlCommand sql_preview_cmd = new SqlCommand("select 'dillon is Prof Os Favorite'", conn);
+            //SqlDataReader reader = sql_preview_cmd.ExecuteReader();
+
+            //reader.Close();
+            
+
+        }
+        
     }
 }
