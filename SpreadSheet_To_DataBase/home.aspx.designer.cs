@@ -112,24 +112,6 @@ namespace SpreadSheet_To_DataBase {
         protected global::System.Web.UI.WebControls.Button Submit_button;
         
         /// <summary>
-        /// Local_FIle_Preview control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTableCell Local_FIle_Preview;
-        
-        /// <summary>
-        /// DB_Preview control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTableCell DB_Preview;
-        
-        /// <summary>
         /// Preview_button control.
         /// </summary>
         /// <remarks>
@@ -137,6 +119,15 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Preview_button;
+        
+        /// <summary>
+        /// Preview_table control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Preview_table;
         
         /// <summary>
         /// Start control.

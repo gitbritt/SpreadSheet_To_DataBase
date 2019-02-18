@@ -6,27 +6,6 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
-        .auto-style1 {
-            width: 100%;
-            height: 312px;
-        }
-        .auto-style3 {
-            width: 727px;
-            height: 181px;
-        }
-        .auto-style4 {
-            height: 181px;
-            text-align: left;
-        }
-        .auto-style5 {
-            width: 727px;
-            height: 19px;
-            text-align: center;
-        }
-        .auto-style6 {
-            height: 19px;
-            text-align: center;
-        }
         .auto-style7 {
             margin-left: 160px;
         }
@@ -73,19 +52,13 @@
         <p class="auto-style8">
             <asp:FileUpload  ID="Browse_button" runat="server" OnClick="Browse_button_Click" Text="Browse" />
                     <asp:Button ID="Submit_button" runat="server" Text="Submit" OnClick="Submit_button_Click" />
-                <table class="auto-style1" bgcolor="grey">
-                    <tr>
-                        <td class="auto-style5">Preview of Local file</td>
-                        <td class="auto-style6">Preview of Database table</td>
-                    </tr>
-                    <tr>
-                        <td class="auto-style3" runat="server" id="Local_FIle_Preview">&nbsp;</td>
-                        
-                        <td class="auto-style4" runat="server" id="DB_Preview">&nbsp;</td>
-                    </tr>
-            </table>
             <asp:Button ID="Preview_button" runat="server" Text="Preview" OnClick="Preview_button_Click" UseSubmitBehavior="False" />
         </p>
+        <p class="auto-style8">
+            &nbsp;</p>
+        <p class="auto-style8">
+            Database Preview</p>
+        <div class="auto-style8" runat="server" id ="Preview_table"></div>
         <p>
             <asp:Button ID="Start" runat="server" Text="Start" />
         </p>
