@@ -94,13 +94,13 @@ namespace SpreadSheet_To_DataBase {
         protected global::System.Web.UI.WebControls.DropDownList Select_Table;
         
         /// <summary>
-        /// Browse_button control.
+        /// Browse_file control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload Browse_button;
+        protected global::System.Web.UI.WebControls.FileUpload Browse_file;
         
         /// <summary>
         /// Submit_button control.
@@ -119,6 +119,15 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Preview_button;
+        
+        /// <summary>
+        /// File_status control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl File_status;
         
         /// <summary>
         /// Preview_table control.

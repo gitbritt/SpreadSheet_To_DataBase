@@ -50,17 +50,17 @@
             </asp:DropDownList>
         </p>
         <p class="auto-style8">
-            <asp:FileUpload  ID="Browse_button" runat="server" OnClick="Browse_button_Click" Text="Browse" />
-                    <asp:Button ID="Submit_button" runat="server" Text="Submit" OnClick="Submit_button_Click" />
+            <asp:FileUpload ID="Browse_file" runat="server" />
+            <asp:Button ID="Submit_button" runat="server" Text="Submit" OnClick="Submit_button_Click" />
             <asp:Button ID="Preview_button" runat="server" Text="Preview" OnClick="Preview_button_Click" UseSubmitBehavior="False" />
         </p>
-        <p class="auto-style8">
-            &nbsp;</p>
+        <p class="auto-style8" id="File_status" runat ="server">
+            File Status : </p>
         <p class="auto-style8">
             Database Preview</p>
         <div class="auto-style8" runat="server" id ="Preview_table"></div>
         <p>
-            <asp:Button ID="Start" runat="server" Text="Start" />
+            <asp:Button ID="Start" runat="server" Text="Start" OnClick="Start_Click" />
         </p>
     </form>
 </body>
