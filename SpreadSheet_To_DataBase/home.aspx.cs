@@ -185,22 +185,33 @@ namespace SpreadSheet_To_DataBase
 
         protected void Start_Click(object sender, EventArgs e)
         {
-            if(file_name != null)
+            try
             {
-                FileReader read_files = new FileReader();
-                string str_file_type = Path.GetExtension("/user_uploads/" + file_name);
-                bool file_type = read_files.determine_file_type(str_file_type);
-                string file_path = Server.MapPath("/user_uploads/" + file_name);
-                
+                if (file_name != null)
+                {
+                    FileReader read_files = new FileReader();
+                    string str_file_type = Path.GetExtension("/user_uploads/" + file_name);
+                    bool file_type = read_files.determine_file_type(str_file_type);
+                    string file_path = Server.MapPath("/user_uploads/" + file_name);
 
-                if (file_type == true)
-                    read_files.xlsx_reader();
-                else
-                    read_files.csv_reader(file_name, file_path);
+                    if (file_type == true)
+                        read_files.xlsx_reader();
+                    else
+                        read_files.csv_reader(file_name, file_path);
 
-                File.Delete(file_path);
+                    File.Delete(file_path);
+                }
+            }
+            catch
+            {
+
             }
             //Does nothing if no file submitted
+        }
+
+        protected void Preview_local_file_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
