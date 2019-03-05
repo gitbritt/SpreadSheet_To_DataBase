@@ -26,10 +26,10 @@
                 </asp:DropDownList>
             </p>
             <p class="auto-style8">Database Host :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="Database_host" runat="server">DESKTOP-J6OG7OA</asp:TextBox>
+                <asp:TextBox ID="Database_host" runat="server">DESKTOP-GJFVBI9</asp:TextBox>
             </p>
             <p class="auto-style8">Database Name :&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="Database_name" runat="server">TestingDB</asp:TextBox>
+                <asp:TextBox ID="Database_name" runat="server">Plutus</asp:TextBox>
             </p>
             <p class="auto-style8">Microsfot Login : <asp:CheckBox ID="account_authorized" runat="server" Checked="True" Text="true" />
             </p>

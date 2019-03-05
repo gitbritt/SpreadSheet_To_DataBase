@@ -111,13 +111,13 @@ namespace SpreadSheet_To_DataBase
         {
 
                 
-                SqlCommand get_tables = new SqlCommand("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES", conn);
+                SqlCommand get_tables = new SqlCommand("SELECT TABLE_SCHEMA + '.' + TABLE_NAME as Table_name FROM INFORMATION_SCHEMA.TABLES", conn);
                 SqlDataReader reader = get_tables.ExecuteReader();
                 Select_Table.Items.Clear();
                 int i = 0;
                 while (reader.Read())
                 {
-                    Select_Table.Items.Add(reader["TABLE_NAME"].ToString());
+                    Select_Table.Items.Add(reader["Table_name"].ToString());
                     i++;
                 }
             
@@ -138,23 +138,30 @@ namespace SpreadSheet_To_DataBase
 
             try
             {
-                SqlCommand sql_preview_headers_cmd = new SqlCommand("SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '" + Select_Table.Text + "'", conn);
+                SqlCommand sql_preview_headers_cmd = new SqlCommand("SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE (TABLE_SCHEMA + '.' + TABLE_NAME) = '" + Select_Table.Text + "'", conn);
                 SqlCommand sql_preview_table = new SqlCommand("SELECT top 1 * FROM " + Select_Table.Text, conn);
                 SqlDataReader reader = sql_preview_headers_cmd.ExecuteReader();
-                int num_columns = 0;
+                int num_columns = 0; 
                 string str = "<table border='1'><tr>";
+                
                 while (reader.Read())
                 {
                     num_columns++;
                     str = str + "<th>";
                     str = str + reader["COLUMN_NAME"].ToString();
                     str = str + "</th>";
+                
                 }
-                reader.Close();
 
+
+                reader.Close();
                 reader = sql_preview_table.ExecuteReader();
+                
+                
+                
                 str = str + "<tr>";
 
+                
 
                 while (reader.Read())
                 {
