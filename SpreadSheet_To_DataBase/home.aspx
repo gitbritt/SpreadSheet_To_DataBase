@@ -51,7 +51,6 @@
         </p>
         <p class="auto-style8">
             <asp:FileUpload ID="Browse_file" runat="server" accept=".xlsx,.csv" />
-            <asp:Button ID="Submit_button" runat="server" Text="Submit" OnClick="Submit_button_Click" />
             <asp:Button ID="Preview_db_button" runat="server" Text="Preview Database" OnClick="Preview_button_Click" UseSubmitBehavior="False" />
         </p>
         <p class="auto-style8" id="File_status" runat ="server">

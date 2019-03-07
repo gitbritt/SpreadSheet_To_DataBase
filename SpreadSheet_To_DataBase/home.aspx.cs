@@ -7,8 +7,8 @@ using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Data;
 using System.IO;
-
-
+using System.IO.Compression;
+using System.IO.Compression;
 
 
 
@@ -16,7 +16,7 @@ namespace SpreadSheet_To_DataBase
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-
+        public string path = "";
         protected static SqlConnection conn = new SqlConnection();
         protected static string conn_string;
         protected static string test;
@@ -32,22 +32,7 @@ namespace SpreadSheet_To_DataBase
         protected void Submit_button_Click(object sender, EventArgs e)
         {
              
-                if (Browse_file.HasFile)
-                {
-                try
-                {
-                    Server.MachineName.ToString();
-                    string filelocation = Server.MapPath("/user_uploads/" + Browse_file.FileName);
-                    Browse_file.SaveAs(filelocation);
-                    File_status.InnerHtml = "successfully uploaded : " + Browse_file.FileName;
-                    file_name = Browse_file.FileName;
-                    
-                }
-                catch
-                {
-                    File_status.InnerHtml = "Error. Please try again.";
-                }
-                }
+                
                 
         }
 
@@ -190,6 +175,38 @@ namespace SpreadSheet_To_DataBase
 
         }
 
+        protected string uniqu_file_name(string file_name)
+        {
+            
+            DirectoryInfo main = new DirectoryInfo(path);
+            bool found = true;
+            string name = null;
+            int random_number = 0;
+            Random random = new Random();
+            random_number = random.Next(0, 100000);
+            FileInfo[] filedir;
+
+            while (found == true)
+            {
+                filedir = main.GetFiles("*" + random_number.ToString() + "*.*");
+                foreach (FileInfo file_found in filedir)
+                {
+                    name = file_found.FullName;
+                }
+                int length = name.Length;
+                if (length > 0)
+                    found = true;
+                else
+                {
+                    found = false;
+                    file_name = file_name + "_" + (random_number.ToString());
+                }
+            }
+            System.Diagnostics.Debug.WriteLine(file_name);
+            
+            return file_name;
+        }
+
         protected void Start_Click(object sender, EventArgs e)
         {
             try
@@ -197,21 +214,51 @@ namespace SpreadSheet_To_DataBase
                 if (file_name != null)
                 {
                     FileReader read_files = new FileReader();
-                    string str_file_type = Path.GetExtension("/user_uploads/" + file_name);
-                    bool file_type = read_files.determine_file_type(str_file_type);
-                    string file_path = Server.MapPath("/user_uploads/" + file_name);
+                    string type = Browse_file.FileName;
+                    type = type.Substring(type.IndexOf('.') + 1);//Determins the file type as xlsx or csv
+                    
+                    string location = read_files.determine_file_location(type).ToString();
 
-                    if (file_type == true)
-                        read_files.xlsx_reader();
-                    else
-                        read_files.csv_reader(file_name, file_path);
 
-                    File.Delete(file_path);
+
+                    //Creates folder location /user_uploads/(csv and xlsx)
+                    //Taken from https://stackoverflow.com/questions/9065598/if-a-folder-does-not-exist-create-it
+                    string subPath = location; // your code goes here
+                    bool exists = System.IO.Directory.Exists(HttpContext.Current.Server.MapPath(subPath));
+                    if (!exists)
+                        System.IO.Directory.CreateDirectory(HttpContext.Current.Server.MapPath(subPath));
+
+
+                    path = Server.MapPath(location);
+
+
+                    Server.MachineName.ToString();
+                    string filelocation = Server.MapPath(location + Browse_file.FileName);
+                    //filelocation = uniqu_file_name(filelocation);
+                    Browse_file.SaveAs(filelocation);
+                    File_status.InnerHtml = "successfully uploaded : " + Browse_file.FileName;
+
+                    //File reader
+                    if (type == "csv")
+                    {
+                        System.Diagnostics.Debug.WriteLine("File : CSV");
+                        read_files.csv_reader(filelocation);
+                    }
+                    else if (type == "xlsx")
+                    {
+                        System.Diagnostics.Debug.WriteLine("File : XLSX");
+                        read_files.xlsx_reader(Server.MapPath(location), Browse_file.FileName);//Sends location of the file on server and file name
+                    }
+
+                    //Cleans up Files
+                    File.Delete(filelocation);
+
                 }
             }
             catch
             {
-
+                
+                File_status.InnerHtml = "Error. Please try again.";
             }
             //Does nothing if no file submitted
         }
