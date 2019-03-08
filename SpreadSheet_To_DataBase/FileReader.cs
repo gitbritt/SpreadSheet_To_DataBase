@@ -10,6 +10,11 @@ using System.IO;
 using System.Diagnostics;
 using System.IO.Compression;
 using System.Text.RegularExpressions;
+using System.Xml;
+using System.Linq;
+using System.Xml.Linq;
+
+
 
 //using System.IO.Compression;
 
@@ -72,7 +77,7 @@ namespace SpreadSheet_To_DataBase
             System.Diagnostics.Debug.WriteLine(zip_ext_dir);
             ZipFile.ExtractToDirectory(zip_location, zip_ext_dir);
 
-            xml_reader(zip_ext_dir);
+            XML_Col_Row(zip_ext_dir);
 
             //Clean up files and created folders
             //File.Delete(zip_location);
@@ -86,29 +91,81 @@ namespace SpreadSheet_To_DataBase
 
         }
 
-        public void xml_reader(string xml_path)
+        public void XML_Col_Row(string xml_path)
         {
+            //Function gets the number of columns, rows, and headers in the xlsx file
             string sheet_path = xml_path + @"xl\worksheets\sheet1.xml";
             int row_number = 0;
             int col_number = 0;
+            int header = 0;
             string line = "";
             
             StreamReader sheet = new StreamReader(sheet_path);
             while ((line = sheet.ReadLine())!= null)
             {
                 row_number = Regex.Matches(line, "<row").Count;
-                col_number = (Regex.Matches(line, "<c r=").Count);
+                header = (Regex.Matches(line, "</c>").Count);
+                col_number = Regex.Matches(line, "<c r").Count;
+            }
+            int mod = header % row_number;
+            
+            header = header - mod;
+            header = header / row_number;
+            col_number = col_number / row_number;
+            
+
+            System.Diagnostics.Debug.WriteLine("Number of Rows : " + row_number);
+            System.Diagnostics.Debug.WriteLine("Number of Headers : " + header);
+            System.Diagnostics.Debug.WriteLine("Number of Columns : " + col_number);
+
+            XML_Parse_CSV(col_number, header, row_number, xml_path);
+            sheet.Close();
+        }
+
+        public void XML_Parse_CSV(int row_number, int col_number, int header_number, string xml_path_dir)
+        {
+            string xml_path = xml_path_dir + @"xl\sharedStrings.xml";
+            XML_Format(xml_path);
+
+            StreamReader reader = new StreamReader(xml_path);
+            string line = "";
+            int counter = 0;
+            bool tag, tag2;
+            string string_row = "";
+            while ((line = reader.ReadLine()) != null)
+            {
+                
+                tag = line.Contains("<t>");
+                tag2 = line.Contains("</t>");
+                
+                if(tag == true && tag2 == true)
+                {
+                    line = line.Substring(0, line.Length - 4);
+                    line = line.Substring(line.IndexOf("<t>") + 3).Trim();
+
+                    if (counter != header_number)
+                        line += ",";
+                    
+                    counter++;
+                    System.Diagnostics.Debug.WriteLine(line);
+                }
+
                 
             }
-            col_number = col_number / row_number;
-            System.Diagnostics.Debug.WriteLine("Number of Rows : " + row_number);
-            System.Diagnostics.Debug.WriteLine("Number of Columns : " + col_number);
         }
-
-        public void xmsx_csv()
+        public void XML_Format(string xml_path)
         {
+            //Formats XML file so xarsing is easier to code
+            XmlDocument doc = new XmlDocument();
+            doc.Load(xml_path);
+            string xml_code = doc.InnerXml;
+            XDocument xml = XDocument.Parse(xml_code);
+
+            string formatted_xml = xml.ToString();
+            
+            xml.Save(xml_path);
             
         }
-
+        
     }
 }
