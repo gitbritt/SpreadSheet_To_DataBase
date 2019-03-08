@@ -251,7 +251,7 @@ namespace SpreadSheet_To_DataBase
                     }
 
                     //Cleans up Files
-                    File.Delete(filelocation);
+                    //File.Delete(filelocation);
 
                 }
             }

@@ -7,6 +7,10 @@ namespace SpreadSheet_To_DataBase
 {
     public class Error_detect
     {
-        
+        public void error(string row_str)
+        {
+            
+        }
+
     }
 }
