@@ -49,19 +49,18 @@ namespace SpreadSheet_To_DataBase
 
         public void csv_reader(string file_location)
         {
-            Error_detect Error = new Error_detect();
-            int row = 0;
-            string headers = "";
-            StreamReader file = new StreamReader(file_location);
-            string line_read = "";
-            while((line_read = file.ReadLine())!= null && string.IsNullOrWhiteSpace(line_read) != true)//&& (line_read = file.ReadLine()) != ""
-            {
-                if (row == 0)
-                    headers = line_read;
+            Upload upload = new Upload();
 
-                System.Diagnostics.Debug.WriteLine(line_read);
-                Error.error(line_read);
+            int row = 0;
+            
+            StreamReader file = new StreamReader(file_location);
+            string row_str = "";
+            while((row_str = file.ReadLine())!= null && string.IsNullOrWhiteSpace(row_str) != true)
+            {
+
+                upload.upload(row, row_str);
                 row++;
+
             }
 
             file.Close();
@@ -75,23 +74,27 @@ namespace SpreadSheet_To_DataBase
             ExcelPackage package = new ExcelPackage(xlsx_file);
             ExcelWorksheet sheet = package.Workbook.Worksheets[1];
             var start = sheet.Dimension.Start;
+            
+            //System.Diagnostics.Debug.WriteLine("Col Number" + col_number);
             var end = sheet.Dimension.End;
             string row_str = "";
             string cell = "";
+            int header = 0;
             for (int row = start.Row; row <= end.Row; row++)
             {
                 for (int col = start.Column; col <= end.Column; col++)
                 {
                     cell = sheet.Cells[row, col].Text;
+                    
                     if (cell != "" || string.IsNullOrWhiteSpace(cell) != true)
                     {
                        row_str = row_str + "," + cell;
                     }
                 }
+                
                 if(row_str != "" )
                     row_str = row_str.Remove(0, 1);
-                //System.Diagnostics.Debug.WriteLine(row_str);
-
+                
                 to_csv(file_location, file_name, row_str);
                 row_str = "";
                 

@@ -12,6 +12,10 @@
         .auto-style8 {
             margin-left: 40px;
         }
+        .auto-style9 {
+            width: 619px;
+            height: 263px;
+        }
     </style>
 </head>
 <body>
@@ -61,6 +65,10 @@
         <p class="auto-style8">
             <asp:Button ID="Start" runat="server" Text="Start" OnClick="Start_Click" />
         </p>
+        <p class="auto-style8">
+            Error Messages</p>
+        <p class="auto-style8">
+            <textarea id="Error_list" runat="server" class="auto-style9" name="S1"></textarea></p>
     </form>
 </body>
 </html>

@@ -8,7 +8,6 @@ using System.Data.SqlClient;
 using System.Data;
 using System.IO;
 using System.IO.Compression;
-using System.IO.Compression;
 
 
 
@@ -47,15 +46,12 @@ namespace SpreadSheet_To_DataBase
         }
 
         
-
-        
         void connection_init()
         {
 
         }
 
         
-
         protected void Connect_button_Click(object sender, EventArgs e)
         {
             
@@ -249,23 +245,29 @@ namespace SpreadSheet_To_DataBase
                         System.Diagnostics.Debug.WriteLine("File : XLSX");
                         read_files.xlsx_reader(Server.MapPath(location), Browse_file.FileName);//Sends location of the file on server and file name
                     }
-
                     //Cleans up Files
-                    //File.Delete(filelocation);
-
+                    File.Delete(filelocation);
+                    File.Delete(filelocation + ".csv");
                 }
             }
             catch
             {
-                
                 File_status.InnerHtml = "Error. Please try again.";
             }
-            //Does nothing if no file submitted
         }
 
         protected void Preview_local_file_Click(object sender, EventArgs e)
         {
 
+        }
+
+        public void html_error_list(string error, bool error_bool)
+        {
+            if (error_bool == true)
+            {
+                System.Diagnostics.Debug.WriteLine(error);
+                //Error_list.InnerText = error;
+            }
         }
     }
 }
