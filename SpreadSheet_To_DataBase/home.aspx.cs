@@ -261,13 +261,10 @@ namespace SpreadSheet_To_DataBase
 
         }
 
-        public void html_error_list(string error, bool error_bool)
+        public void html_error_list(string error)
         {
-            if (error_bool == true)
-            {
-                System.Diagnostics.Debug.WriteLine(error);
-                //Error_list.InnerText = error;
-            }
+            //if (error_bool == true)
+            
         }
     }
 }

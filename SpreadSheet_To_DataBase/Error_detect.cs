@@ -43,7 +43,7 @@ namespace SpreadSheet_To_DataBase
                 header_count = Col_count;
             }
             
-            Edit_Html.html_error_list(error_message, error_bool);//Displays the error messages to the user
+            Edit_Html.html_error_list(error_message);//Displays the error messages to the user
             return error_bool;
         }
 
