@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System.IO;
 using System.IO.Compression;
-
+using System.Windows.Forms;
 
 
 namespace SpreadSheet_To_DataBase
@@ -16,42 +16,20 @@ namespace SpreadSheet_To_DataBase
     public partial class WebForm1 : System.Web.UI.Page
     {
         public string path = "";
+        
         protected static SqlConnection conn = new SqlConnection();
         protected static string conn_string;
         protected static string test;
         protected static string file_name = "";
         protected static string file_path = "";
+        protected static string error_str = "";
+        protected static bool error = true;
 
         protected void Page_Load(object sender, EventArgs e)
         {
             
         }
 
-
-        protected void Submit_button_Click(object sender, EventArgs e)
-        {
-             
-                
-                
-        }
-
-        protected void GUI_Preview_file()
-        {
-            
-        }
-
-        protected void GUI_Preview_DB(string table_name)
-        {
-                
-        }
-
-        
-        void connection_init()
-        {
-
-        }
-
-        
         protected void Connect_button_Click(object sender, EventArgs e)
         {
             
@@ -205,7 +183,7 @@ namespace SpreadSheet_To_DataBase
 
         protected void Start_Click(object sender, EventArgs e)
         {
-            try
+           // try
             {
                 if (file_name != null)
                 {
@@ -245,26 +223,35 @@ namespace SpreadSheet_To_DataBase
                         System.Diagnostics.Debug.WriteLine("File : XLSX");
                         read_files.xlsx_reader(Server.MapPath(location), Browse_file.FileName);//Sends location of the file on server and file name
                     }
+                    //Display Human readable errors
+
+                    System.Diagnostics.Debug.WriteLine(error_str);
+
                     //Cleans up Files
                     File.Delete(filelocation);
                     File.Delete(filelocation + ".csv");
+                    
                 }
+                
             }
-            catch
+            //catch
             {
-                File_status.InnerHtml = "Error. Please try again.";
+              //  File_status.InnerHtml = "Error. Please try again.";
             }
         }
 
-        protected void Preview_local_file_Click(object sender, EventArgs e)
+        
+        public void SendToForm(string error_message, bool error_)
         {
-
-        }
-
-        public void html_error_list(string error)
-        {
-            //if (error_bool == true)
             
+            error_str = error_message;
+            error = error_;
+
+            
+
+
         }
+
+
     }
 }

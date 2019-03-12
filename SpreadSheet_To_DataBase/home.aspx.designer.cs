@@ -148,12 +148,12 @@ namespace SpreadSheet_To_DataBase {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl testing;
         
         /// <summary>
-        /// test2 control.
+        /// Error_display control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea test2;
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea Error_display;
     }
 }

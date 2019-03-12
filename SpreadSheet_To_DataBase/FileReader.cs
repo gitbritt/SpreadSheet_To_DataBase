@@ -11,12 +11,12 @@ using System.Diagnostics;
 using System.IO.Compression;
 using System.Text.RegularExpressions;
 using System.Xml;
-using System.Linq;
 using System.Xml.Linq;
 using OfficeOpenXml;
+using System.Windows.Forms;
 
 
-//using System.IO.Compression;
+//using System.IO.Compression;  
 
 
 namespace SpreadSheet_To_DataBase
@@ -25,7 +25,6 @@ namespace SpreadSheet_To_DataBase
     {
         //File reader class
         //Contains the functions for Excel/CSS/TXT reader fucntions
-        
         
         protected static string file_name;
 
@@ -75,11 +74,10 @@ namespace SpreadSheet_To_DataBase
             ExcelWorksheet sheet = package.Workbook.Worksheets[1];
             var start = sheet.Dimension.Start;
             
-            //System.Diagnostics.Debug.WriteLine("Col Number" + col_number);
             var end = sheet.Dimension.End;
             string row_str = "";
             string cell = "";
-            int header = 0;
+            
             for (int row = start.Row; row <= end.Row; row++)
             {
                 for (int col = start.Column; col <= end.Column; col++)
@@ -91,17 +89,14 @@ namespace SpreadSheet_To_DataBase
                        row_str = row_str + "," + cell;
                     }
                 }
-                
                 if(row_str != "" )
                     row_str = row_str.Remove(0, 1);
-                
+
                 to_csv(file_location, file_name, row_str);
-                row_str = "";
-                
+                row_str = "";   
             }
-
+            
             csv_reader(file_location + file_name + ".csv");
-
         }
 
         public void to_csv(string path, string file_name, string row_str)

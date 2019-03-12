@@ -5,6 +5,7 @@ using System.Web;
 using OfficeOpenXml;
 using System.IO;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 
 namespace SpreadSheet_To_DataBase
@@ -17,33 +18,38 @@ namespace SpreadSheet_To_DataBase
         /// </summary>
         
         protected static int header_count = 0;
+        protected static string error_current = "";
+        protected static string error_next = error_current;
         
         public bool error(string row_str, int row)
         {
             WebForm1 Edit_Html = new WebForm1();
             bool error_bool = false;
-            string error_message = "No error's";
+            
             int Col_count = row_str.Split(',').Length;
-            string header = "";
+            string header = "No error \n";
+            
             if (row == 0)
             {
                 
                 header = row_str;
                 header_count = Col_count;
-                System.Diagnostics.Debug.WriteLine("Header : " + header_count);
+                //System.Diagnostics.Debug.WriteLine("Header : " + header_count);
             }
             else
             {
-                System.Diagnostics.Debug.WriteLine("Col Count/row : " + Col_count);
+                //System.Diagnostics.Debug.WriteLine("Col Count/row : " + Col_count);
             }
             if(header_count != Col_count)
             {
                 error_bool = true;
-                error_message = "There is some columns without a header name, or to many headers. Please fix this.\n";
+                error_current = error_current + "There is some columns without a header name, or to many headers. Please fix this.\n";
                 header_count = Col_count;
             }
             
-            Edit_Html.html_error_list(error_message);//Displays the error messages to the user
+
+
+            Edit_Html.SendToForm(error_current, error_bool);
             return error_bool;
         }
 

@@ -13,8 +13,8 @@
             margin-left: 40px;
         }
         .auto-style9 {
-            width: 587px;
-            height: 252px;
+            width: 508px;
+            height: 186px;
         }
     </style>
 </head>
@@ -68,7 +68,7 @@
         <p class="auto-style8">
             Error Messages</p>
         <p class="auto-style8" id="testing" runat="server">
-            <textarea id="test2" class="auto-style9" runat="server" name="S1"></textarea></p>
+            <textarea id="Error_display" runat="server" class="auto-style9" name="S1" value ="Errors: "></textarea></p>
     </form>
 </body>
 </html>
