@@ -228,7 +228,7 @@ namespace SpreadSheet_To_DataBase
 
                     //Cleans up Files
                     File.Delete(filelocation);
-                    //File.Delete(filelocation + ".csv");
+                    File.Delete(filelocation + ".csv");
                     
                 }
                 
