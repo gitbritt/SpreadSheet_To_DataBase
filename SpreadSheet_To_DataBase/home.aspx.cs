@@ -193,8 +193,6 @@ namespace SpreadSheet_To_DataBase
                     
                     string location = read_files.determine_file_location(type).ToString();
 
-
-
                     //Creates folder location /user_uploads/(csv and xlsx)
                     //Taken from https://stackoverflow.com/questions/9065598/if-a-folder-does-not-exist-create-it
                     string subPath = location; // your code goes here
@@ -208,7 +206,7 @@ namespace SpreadSheet_To_DataBase
 
                     Server.MachineName.ToString();
                     string filelocation = Server.MapPath(location + Browse_file.FileName);
-                    //filelocation = uniqu_file_name(filelocation);
+                    
                     Browse_file.SaveAs(filelocation);
                     File_status.InnerHtml = "successfully uploaded : " + Browse_file.FileName;
 
@@ -225,11 +223,12 @@ namespace SpreadSheet_To_DataBase
                     }
                     //Display Human readable errors
 
-                    System.Diagnostics.Debug.WriteLine(error_str);
+                    
+                    Error_display.InnerText = error_str;
 
                     //Cleans up Files
                     File.Delete(filelocation);
-                    File.Delete(filelocation + ".csv");
+                    //File.Delete(filelocation + ".csv");
                     
                 }
                 
@@ -244,14 +243,12 @@ namespace SpreadSheet_To_DataBase
         public void SendToForm(string error_message, bool error_)
         {
             
-            error_str = error_message;
             error = error_;
+            if(error_ == true)
+                error_str = error_str + error_message + "\n----------------\n";
 
-            
-
+           // System.Diagnostics.Debug.WriteLine("Error being passed in : " + error_message);
 
         }
-
-
     }
 }

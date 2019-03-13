@@ -14,11 +14,11 @@ namespace SpreadSheet_To_DataBase
 
             if(error_result == false)
             {
-                
+                //If Errors, Dont' upload
             }
             else
             {
-                
+                //If no Error's then Upload data
             }
             
         }

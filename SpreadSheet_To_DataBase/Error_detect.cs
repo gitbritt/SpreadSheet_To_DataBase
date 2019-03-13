@@ -18,38 +18,37 @@ namespace SpreadSheet_To_DataBase
         /// </summary>
         
         protected static int header_count = 0;
-        protected static string error_current = "";
-        protected static string error_next = error_current;
+        
+        
         
         public bool error(string row_str, int row)
         {
             WebForm1 Edit_Html = new WebForm1();
             bool error_bool = false;
-            
+            string error_message = "No Error's \n";
             int Col_count = row_str.Split(',').Length;
             string header = "No error \n";
+
             
+
             if (row == 0)
             {
                 
                 header = row_str;
                 header_count = Col_count;
-                //System.Diagnostics.Debug.WriteLine("Header : " + header_count);
+                
             }
-            else
-            {
-                //System.Diagnostics.Debug.WriteLine("Col Count/row : " + Col_count);
-            }
-            if(header_count != Col_count)
+            
+            if(header_count != Col_count && row != 0)
             {
                 error_bool = true;
-                error_current = error_current + "There is some columns without a header name, or to many headers. Please fix this.\n";
+                error_message = "Either there is a header with no data, or a Column with no header. Please make sure each column has just one header, and double check the headers are correct.\n";
                 header_count = Col_count;
             }
             
 
 
-            Edit_Html.SendToForm(error_current, error_bool);
+            Edit_Html.SendToForm(error_message, error_bool);
             return error_bool;
         }
 
