@@ -50,7 +50,7 @@
         </div>
         <p class="auto-style8">
             Select Table&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:DropDownList ID="Select_Table" runat="server" OnClick ="Select_Table_SelectedIndexChanged">
+            <asp:DropDownList ID="Select_Table" runat="server" OnClick ="Select_Table_SelectedIndexChanged" OnSelectedIndexChanged="Select_Table_SelectedIndexChanged1">
             </asp:DropDownList>
         </p>
         <p class="auto-style8">

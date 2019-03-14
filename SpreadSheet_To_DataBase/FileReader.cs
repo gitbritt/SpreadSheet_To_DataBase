@@ -76,7 +76,7 @@ namespace SpreadSheet_To_DataBase
             var start = sheet.Dimension.Start;
             var end = sheet.Dimension.End;
 
-
+            bool mod_header = false;
 
             string row_str = "";    //Row of data
             string cell = "";       //Data within cell
@@ -106,13 +106,14 @@ namespace SpreadSheet_To_DataBase
                 }
                 else
                 {
+                    //mod_header = true;
                     row_str = row_str.Replace(",,", "");//the ,, needs to be removed in the header becaue you can't have a blank header
                     if (row_str.Length > 0)
                         row_str = row_str.Substring(1, row_str.Length - 1);
                 }
 
                 //End of Clean up
-                System.Diagnostics.Debug.WriteLine(row);
+                //System.Diagnostics.Debug.WriteLine(row);
                 to_csv(file_location, file_name, row_str);//Sends all info to CSV file format
                 System.Diagnostics.Debug.WriteLine(row_str);
                 row_str = "";

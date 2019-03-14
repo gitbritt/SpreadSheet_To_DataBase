@@ -17,14 +17,14 @@ namespace SpreadSheet_To_DataBase
     {
         public string path = "";
         
-        protected static SqlConnection conn = new SqlConnection();
+        public static SqlConnection conn = new SqlConnection();
         protected static string conn_string;
         protected static string test;
         protected static string file_name = "";
         protected static string file_path = "";
         protected static string error_str = "";
         protected static bool error = true;
-
+        public static string selected_table = "";
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -32,13 +32,15 @@ namespace SpreadSheet_To_DataBase
 
         protected void Connect_button_Click(object sender, EventArgs e)
         {
-            
+            selected_table = Select_Table.Text;//Sets public var to selected table
             string Database_host_str = Database_host.Text;
             string Database_name_str = Database_name.Text;
             string Account_auth_str;
             string Database_username_str = Database_username.Text;
             string Database_password_str = Database_password.Text;
+
             
+
             if (account_authorized.Checked)
                 Account_auth_str = "true";
 
@@ -183,14 +185,17 @@ namespace SpreadSheet_To_DataBase
 
         protected void Start_Click(object sender, EventArgs e)
         {
-           // try
+            try
             {
+                selected_table = Select_Table.Text;
+                System.Diagnostics.Debug.WriteLine("test test : " + selected_table);
                 if (file_name != null)
                 {
+
                     FileReader read_files = new FileReader();
                     string type = Browse_file.FileName;
                     type = type.Substring(type.IndexOf('.') + 1);//Determins the file type as xlsx or csv
-                    
+
                     string location = read_files.determine_file_location(type).ToString();
 
                     //Creates folder location /user_uploads/(csv and xlsx)
@@ -206,7 +211,7 @@ namespace SpreadSheet_To_DataBase
 
                     Server.MachineName.ToString();
                     string filelocation = Server.MapPath(location + Browse_file.FileName);
-                    
+
                     Browse_file.SaveAs(filelocation);
                     File_status.InnerHtml = "successfully uploaded : " + Browse_file.FileName;
 
@@ -223,19 +228,19 @@ namespace SpreadSheet_To_DataBase
                     }
                     //Display Human readable errors
 
-                    
-                    Error_display.InnerText = error_str;
 
+                    Error_display.InnerText = error_str;
+                    error_str = "";
                     //Cleans up Files
                     File.Delete(filelocation);
                     File.Delete(filelocation + ".csv");
-                    
+
                 }
-                
+            
             }
-            //catch
+            catch
             {
-              //  File_status.InnerHtml = "Error. Please try again.";
+                File_status.InnerHtml = "Error. Please try again, and check Database connection.";
             }
         }
 
@@ -249,6 +254,12 @@ namespace SpreadSheet_To_DataBase
 
            // System.Diagnostics.Debug.WriteLine("Error being passed in : " + error_message);
 
+        }
+
+        protected void Select_Table_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+            
+            
         }
     }
 }
