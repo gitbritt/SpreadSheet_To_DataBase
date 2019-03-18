@@ -99,7 +99,7 @@ namespace SpreadSheet_To_DataBase
 
             try
             {
-                SqlCommand sql_preview_headers_cmd = new SqlCommand("SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE (TABLE_SCHEMA + '.' + TABLE_NAME) = '" + Select_Table.Text + "'", conn);
+                SqlCommand sql_preview_headers_cmd = new SqlCommand("SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE (TABLE_SCHEMA + '.' + TABLE_NAME) = '" + Select_Table.Text + "' order by ORDINAL_POSITION", conn);
                 SqlCommand sql_preview_table = new SqlCommand("SELECT top 1 * FROM " + Select_Table.Text, conn);
                 SqlDataReader reader = sql_preview_headers_cmd.ExecuteReader();
                 int num_columns = 0; 
@@ -188,7 +188,7 @@ namespace SpreadSheet_To_DataBase
             try
             {
                 selected_table = Select_Table.Text;
-                System.Diagnostics.Debug.WriteLine("test test : " + selected_table);
+                
                 if (file_name != null)
                 {
 
@@ -238,9 +238,10 @@ namespace SpreadSheet_To_DataBase
                 }
             
             }
-            catch
+            catch (Exception ex)
             {
                 File_status.InnerHtml = "Error. Please try again, and check Database connection.";
+                System.Diagnostics.Debug.WriteLine(ex);
             }
         }
 
