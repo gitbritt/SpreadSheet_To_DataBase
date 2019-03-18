@@ -54,6 +54,8 @@
             </asp:DropDownList>
         </p>
         <p class="auto-style8">
+            <strong>Warning : For empty cells that are supposed to be empty, put NULL in in the cell to help avoid errers and issues.</strong></p>
+        <p class="auto-style8">
             <asp:FileUpload ID="Browse_file" runat="server" accept=".xlsx,.csv" />
             <asp:Button ID="Preview_db_button" runat="server" Text="Preview Database" OnClick="Preview_button_Click" UseSubmitBehavior="False" />
         </p>

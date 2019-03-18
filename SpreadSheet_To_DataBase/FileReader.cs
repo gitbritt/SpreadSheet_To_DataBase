@@ -56,9 +56,12 @@ namespace SpreadSheet_To_DataBase
             string row_str = "";
             while((row_str = file.ReadLine())!= null && string.IsNullOrWhiteSpace(row_str) != true)
             {
-
-                upload.upload(row, row_str);
-                row++;
+                
+            
+                    upload.upload(row, row_str);
+                    row++;
+                    //System.Diagnostics.Debug.WriteLine(row_str);
+            
 
             }
 
@@ -84,7 +87,7 @@ namespace SpreadSheet_To_DataBase
             string cell = "";       //Data within cell
             string header_str = ExcelAddress.GetAddressCol(1);
             
-            System.Diagnostics.Debug.WriteLine("Test start : " + header_str);
+            
 
             for (int row = start.Row; row <= end.Row; row++)
             {
@@ -93,20 +96,16 @@ namespace SpreadSheet_To_DataBase
                 {
 
                     cell = sheet.Cells[row, col].Text;//Get cell data according to row,collumn number
-                    if(cell != "")
+                    if(cell != "" && !string.IsNullOrEmpty(cell))
                         row_str = row_str + cell + ",";
                     
+                    
                 }
-
-                
-                
-                to_csv(file_location, file_name, row_str);//Sends all info to CSV file format
-                
 
                 row_str = row_str.TrimEnd(',');
                 System.Diagnostics.Debug.WriteLine(row_str);
                 to_csv(file_location, file_name, row_str);//Sends all info to CSV file format
-
+                
                 row_str = "";
 
             }
@@ -124,8 +123,8 @@ namespace SpreadSheet_To_DataBase
             {
                 File.Create(csv_file).Close();
             }
-            
-            File.AppendAllText(csv_file, row_str);
+            if(row_str != "" || string.IsNullOrEmpty(row_str) == true|| string.IsNullOrWhiteSpace(row_str) == true)
+                File.AppendAllText(csv_file, row_str);
             
         }
         
