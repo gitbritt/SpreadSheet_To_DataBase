@@ -71,7 +71,7 @@ namespace SpreadSheet_To_DataBase
                     {
                         for(int i = 0; i < Col_Num; i++)
                         {
-                            //System.Diagnostics.Debug.WriteLine(header_name[i] + " " + cells[i]);
+                            System.Diagnostics.Debug.WriteLine(header_name[i] + " " + cells[i]);
                             if(cells[i] != header_name[i])//If header on file is not the same as the Database header, give error
                             {
                                 error_bool = true;
@@ -86,8 +86,8 @@ namespace SpreadSheet_To_DataBase
                         }
 
             reader_.Close();
-                
 
+            System.Diagnostics.Debug.WriteLine("Error being passed in : " + error_message);
             Edit_Html.SendToForm(error_message, error_bool);
             return error_bool;
         }

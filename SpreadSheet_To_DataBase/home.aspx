@@ -54,6 +54,8 @@
             </asp:DropDownList>
         </p>
         <p class="auto-style8">
+            <strong>Please make sure there is no empty cells in your table. If it is supposed to be empty just put null. It will not calcuate correctly with empty values.</strong></p>
+        <p class="auto-style8">
             <asp:FileUpload ID="Browse_file" runat="server" accept=".xlsx,.csv" />
             <asp:Button ID="Preview_db_button" runat="server" Text="Preview Database" OnClick="Preview_button_Click" UseSubmitBehavior="False" />
         </p>

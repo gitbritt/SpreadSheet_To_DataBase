@@ -238,9 +238,10 @@ namespace SpreadSheet_To_DataBase
                 }
             
             }
-            catch
+            catch (Exception ex)
             {
                 File_status.InnerHtml = "Error. Please try again, and check Database connection.";
+                System.Diagnostics.Debug.WriteLine(ex);
             }
         }
 
