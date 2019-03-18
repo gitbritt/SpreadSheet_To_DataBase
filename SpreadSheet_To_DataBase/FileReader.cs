@@ -73,18 +73,13 @@ namespace SpreadSheet_To_DataBase
             ExcelPackage package = new ExcelPackage(xlsx_file);
             ExcelWorksheet sheet = package.Workbook.Worksheets[1];
             
-            
-            
             var start = sheet.Dimension.Start;
             var end = sheet.Dimension.End;
 
-            
+            bool mod_header = false;
 
             string row_str = "";    //Row of data
             string cell = "";       //Data within cell
-            string header_str = ExcelAddress.GetAddressCol(1);
-            
-            System.Diagnostics.Debug.WriteLine("Test start : " + header_str);
 
             for (int row = start.Row; row <= end.Row; row++)
             {
@@ -94,11 +89,33 @@ namespace SpreadSheet_To_DataBase
 
                     row_str = row_str + "," + cell;
                     
+                } 
+                
+                row_str = row_str.Replace(",,,", "");
+                //EPPlus puts a bunch of ,,, these in here. Next few lines is cleaning up
+                //
+                
+                    string temp = row_str.Substring(row_str.Length - 2);        //Removes ,, at end. Did it this way so it would not remove the ,, within the data
+                if (row > start.Row)
+                {
+                    if (temp == ",,")
+                        row_str = row_str.Substring(0, row_str.Length - 2);
+
+                    if (row_str.Length > 0)
+                        row_str = row_str.Substring(1, row_str.Length - 1);
                 }
-                
-                
+                else
+                {
+                    //mod_header = true;
+                    row_str = row_str.Replace(",,", "");//the ,, needs to be removed in the header becaue you can't have a blank header
+                    if (row_str.Length > 0)
+                        row_str = row_str.Substring(1, row_str.Length - 1);
+                }
+
+                //End of Clean up
+                //System.Diagnostics.Debug.WriteLine(row);
                 to_csv(file_location, file_name, row_str);//Sends all info to CSV file format
-                
+                System.Diagnostics.Debug.WriteLine(row_str);
                 row_str = "";
             }
 
