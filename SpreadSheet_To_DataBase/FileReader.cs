@@ -88,21 +88,28 @@ namespace SpreadSheet_To_DataBase
 
             for (int row = start.Row; row <= end.Row; row++)
             {
+
                 for (int col = start.Column; col <= end.Column; col++)
                 {
-                    cell = sheet.Cells[row, col].Text;//Get cell data according to row,collumn number
 
-                    row_str = row_str + "," + cell;
+                    cell = sheet.Cells[row, col].Text;//Get cell data according to row,collumn number
+                    if(cell != "")
+                        row_str = row_str + cell + ",";
                     
                 }
+
                 
                 
                 to_csv(file_location, file_name, row_str);//Sends all info to CSV file format
                 
+
+                row_str = row_str.TrimEnd(',');
+                System.Diagnostics.Debug.WriteLine(row_str);
+                to_csv(file_location, file_name, row_str);//Sends all info to CSV file format
+
                 row_str = "";
+
             }
-
-
 
             csv_reader(file_location + file_name + ".csv");//Reads created CSV
         }
