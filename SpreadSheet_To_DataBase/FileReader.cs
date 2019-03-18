@@ -83,43 +83,21 @@ namespace SpreadSheet_To_DataBase
 
             for (int row = start.Row; row <= end.Row; row++)
             {
+
                 for (int col = start.Column; col <= end.Column; col++)
                 {
+
                     cell = sheet.Cells[row, col].Text;//Get cell data according to row,collumn number
-
-                    row_str = row_str + "," + cell;
+                    if(cell != "")
+                        row_str = row_str + cell + ",";
                     
-                } 
-                
-                row_str = row_str.Replace(",,,", "");
-                //EPPlus puts a bunch of ,,, these in here. Next few lines is cleaning up
-                //
-                
-                    string temp = row_str.Substring(row_str.Length - 2);        //Removes ,, at end. Did it this way so it would not remove the ,, within the data
-                if (row > start.Row)
-                {
-                    if (temp == ",,")
-                        row_str = row_str.Substring(0, row_str.Length - 2);
-
-                    if (row_str.Length > 0)
-                        row_str = row_str.Substring(1, row_str.Length - 1);
                 }
-                else
-                {
-                    //mod_header = true;
-                    row_str = row_str.Replace(",,", "");//the ,, needs to be removed in the header becaue you can't have a blank header
-                    if (row_str.Length > 0)
-                        row_str = row_str.Substring(1, row_str.Length - 1);
-                }
-
-                //End of Clean up
-                //System.Diagnostics.Debug.WriteLine(row);
-                to_csv(file_location, file_name, row_str);//Sends all info to CSV file format
+                row_str = row_str.TrimEnd(',');
                 System.Diagnostics.Debug.WriteLine(row_str);
+                to_csv(file_location, file_name, row_str);//Sends all info to CSV file format
                 row_str = "";
+
             }
-
-
 
             csv_reader(file_location + file_name + ".csv");//Reads created CSV
         }
