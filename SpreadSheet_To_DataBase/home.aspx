@@ -38,9 +38,9 @@
             <p class="auto-style8">Microsfot Login : <asp:CheckBox ID="account_authorized" runat="server" Checked="True" Text="true" />
             </p>
             <p class="auto-style8">If you are not using a Microsoft account for the DB, please use username + password</p>
-            <p class="auto-style8">username :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="Database_username" runat="server"></asp:TextBox>
+            <p class="auto-style8">username :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="Database_username" runat="server" Enabled="False"></asp:TextBox>
             </p>
-            <p class="auto-style8">Password :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="Database_password" runat="server"></asp:TextBox>
+            <p class="auto-style8">Password :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="Database_password" runat="server" Enabled="False"></asp:TextBox>
             </p>
             <p class="auto-style7">
                 <asp:Button ID="Connect_button" runat="server" OnClick="Connect_button_Click" Text="Connect to Database"  UseSubmitBehavior="false" />
@@ -55,6 +55,8 @@
         </p>
         <p class="auto-style8">
             <strong>Warning : For empty cells that are supposed to be empty, put NULL in in the cell to help avoid errers and issues.</strong></p>
+        <p class="auto-style8">
+            <strong>Also make sure that the data starts on row 1, column 1. It can cause issues if it&#39;s in the middle of the page.</strong></p>
         <p class="auto-style8">
             <asp:FileUpload ID="Browse_file" runat="server" accept=".xlsx,.csv" />
             <asp:Button ID="Preview_db_button" runat="server" Text="Preview Database" OnClick="Preview_button_Click" UseSubmitBehavior="False" />
@@ -72,5 +74,17 @@
         <p class="auto-style8" id="testing" runat="server">
             <textarea id="Error_display" runat="server" class="auto-style9" name="S1" value ="Errors: "></textarea></p>
     </form>
+    <p runat="server" class="auto-style8">
+        &nbsp;</p>
+    <p runat="server" class="auto-style8">
+        &nbsp;</p>
+    <p runat="server" class="auto-style8">
+        &nbsp;</p>
+    <p runat="server" class="auto-style8">
+        &nbsp;</p>
+    <p runat="server" class="auto-style8">
+        &nbsp;</p>
+    <p runat="server" class="auto-style8">
+        For help or issues, report them here : <a href="https://github.com/gitbritt/SpreadSheet_To_DataBase/issues">https://github.com/gitbritt/SpreadSheet_To_DataBase/issues</a></p>
 </body>
 </html>

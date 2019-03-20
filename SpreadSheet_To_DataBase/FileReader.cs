@@ -16,7 +16,7 @@ using OfficeOpenXml;
 using System.Windows.Forms;
 
 
-//using System.IO.Compression;  
+
 
 
 namespace SpreadSheet_To_DataBase
@@ -54,12 +54,14 @@ namespace SpreadSheet_To_DataBase
             
             StreamReader file = new StreamReader(file_location);
             string row_str = "";
+            int new_row = 0;
             while((row_str = file.ReadLine())!= null && string.IsNullOrWhiteSpace(row_str) != true)
             {
                 
             
-                    upload.upload(row, row_str);
+                    upload.upload(new_row, row, row_str, file_name);
                     row++;
+                    new_row++;
                     //System.Diagnostics.Debug.WriteLine(row_str);
             
 
@@ -103,7 +105,7 @@ namespace SpreadSheet_To_DataBase
                 }
 
                 row_str = row_str.TrimEnd(',');
-                System.Diagnostics.Debug.WriteLine(row_str);
+                //System.Diagnostics.Debug.WriteLine(row_str);
                 to_csv(file_location, file_name, row_str);//Sends all info to CSV file format
                 
                 row_str = "";
