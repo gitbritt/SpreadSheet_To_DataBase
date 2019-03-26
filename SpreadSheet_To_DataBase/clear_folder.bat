@@ -1,1 +1,0 @@
-del "user_uploads/." /s /f /q
