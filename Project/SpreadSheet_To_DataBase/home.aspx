@@ -83,7 +83,7 @@
     <p runat="server" class="auto-style8">
         &nbsp;</p>
     <p runat="server" class="auto-style8">
-        &nbsp;</p>
+        Download Your logs </p>
     <p runat="server" class="auto-style8">
         For help or issues, report them here : <a href="https://github.com/gitbritt/SpreadSheet_To_DataBase/issues">https://github.com/gitbritt/SpreadSheet_To_DataBase/issues</a></p>
 </body>

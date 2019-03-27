@@ -185,7 +185,7 @@ namespace SpreadSheet_To_DataBase
 
         protected void Start_Click(object sender, EventArgs e)
         {
-            try
+            //try
             {
                 selected_table = Select_Table.Text;
                 
@@ -238,10 +238,10 @@ namespace SpreadSheet_To_DataBase
                 }
             
             }
-            catch (Exception ex)
+            //catch (Exception ex)
             {
-                File_status.InnerHtml = "Error. Please try again, and check Database connection.";
-                System.Diagnostics.Debug.WriteLine(ex);
+                //File_status.InnerHtml = "Error. Please try again, and check Database connection.";
+                //System.Diagnostics.Debug.WriteLine(ex);
             }
         }
 

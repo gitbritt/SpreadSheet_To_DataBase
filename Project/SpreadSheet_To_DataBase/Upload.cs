@@ -19,7 +19,7 @@ namespace SpreadSheet_To_DataBase
             Error_detect error = new Error_detect();
             SqlConnection conn = WebForm1.conn;
             string table_name = WebForm1.selected_table;
-            bool error_result = error.error(row_str, row);
+            bool error_result = error.error(row_str, row, file_name);
             SqlDataAdapter updateSQLcmd = new SqlDataAdapter();
             DataSet ds = new DataSet();
             string sql_row = "";
@@ -40,13 +40,20 @@ namespace SpreadSheet_To_DataBase
                     log.successful_upload(row_str, file_name);
 
                 }
-                catch(Exception ex)
+                catch(SqlException ex)
                 {
-                    //This catches any advanced, or other unusal erros not covered by the Error detect class.
+                    //This is dealing with Errors on Database/SQL side.
                     WebForm1 issue = new WebForm1();
+                    Logs log_advaced_errors = new Logs();
                     
-                    string message = "There was an error in processing the data. More details are below. Please contact your administrator for questions.\n" + ex.Message;
+                    string message;
+                    if (ex.Number == 2627)
+                        message = "You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. \n" + ex.Message;
+                    else
+                        message = "There was an error in processing the data. More details are below. Please contact your administrator for questions.\n" + ex.Message;
+
                     issue.SendToForm(message, true);
+                    log_advaced_errors.failed_uploads(row_str, file_name, message);
                 }
             }
             else

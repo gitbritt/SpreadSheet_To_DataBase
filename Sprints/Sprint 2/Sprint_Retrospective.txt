@@ -1,0 +1,19 @@
+What went well
+--------------
+Inplementing the Excel libaray
+reading CSV
+Checking in at least 3 times a week and have deticated time outside of class
+keeping trello uptodate
+Staying motivated
+
+
+
+What did not go well
+--------------------
+I noticed how I was going to tackle the excel portion did not work at all after I thought I had it all working
+
+
+What can be done to improve
+---------------------------
+Just because it says how to do it in my paper last semester, does not mean it is alwayse the best method.
+Double check to see it that is really the best way to go about things.

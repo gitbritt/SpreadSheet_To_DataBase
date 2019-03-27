@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 using System.Windows.Forms;
 
 
+
 namespace SpreadSheet_To_DataBase
 {
     public class Error_detect : System.Web.UI.Page
@@ -21,12 +22,12 @@ namespace SpreadSheet_To_DataBase
         protected static List<string> header_name = new List<string>();
         protected static List<string> isnull = new List<string>();
 
-        public bool error(string row_str, int row)
+        public bool error(string row_str, int row, string file_name)
         {
             
             WebForm1 Edit_Html = new WebForm1();
             bool error_bool = false;
-
+            
             string error_message = "No Errors in row \n";
             int Col_count = row_str.Split(',').Length;
             string header = "No error \n";
@@ -86,46 +87,12 @@ namespace SpreadSheet_To_DataBase
                     error_message = "Wrong Nuber of Columns in the file.";
                 }
             reader_.Close();
-            //////From here on down is Errors involving the database./////////
-            ///
-            ///
-            ///Search for duplicate Primary keys
-            string str_getPrimaryKey = "select COLUMN_NAME, type, TABLE_NAME from sys.objects o INNER JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE k ON k.CONSTRAINT_NAME = o.name where type = 'PK' and Table_Name = '" + WebForm1.selected_table + "'";
-            string str_PrimaryKeyData = "";
-            SqlCommand getPrimaryKey = new SqlCommand(str_getPrimaryKey, conn);
-            SqlCommand PrimaryKeyData;
-            SqlDataReader read_pk = getPrimaryKey.ExecuteReader();
-            
-            string col_name = "";
-            string key = "";
-            while(read_pk.Read())
+
+            Logs log_error = new Logs();
+            if(error_bool == true)
             {
-                col_name = read_pk["COLUMN_NAME"].ToString();//SOmething going wrong here in the code. come back to it later
-                key = read_pk["type"].ToString();
-                
+                log_error.failed_uploads(row_str, file_name, error_message);
             }
-            read_pk.Close();
-            str_PrimaryKeyData = "SELECT " + col_name + " FROM " + WebForm1.selected_table;
-            System.Diagnostics.Debug.WriteLine(col_name);
-            SqlCommand PrimarkKeyData = new SqlCommand(str_PrimaryKeyData, conn);
-            read_pk = PrimarkKeyData.ExecuteReader();
-            string[] get_first_col = row_str.Split(',');
-            if (key == "PK")
-            { 
-                while(read_pk.Read())
-                {
-                    if (get_first_col[0] == read_pk["ID"].ToString());
-                    {
-                        error_message = "Duplicate Primary key.";
-                        error_bool = true;
-                    }
-                }
-            }
-
-
-            
-            
-            
 
             Edit_Html.SendToForm(error_message, error_bool);
             return error_bool;

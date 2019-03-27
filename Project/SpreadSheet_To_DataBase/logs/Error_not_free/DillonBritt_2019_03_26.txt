@@ -1,0 +1,15 @@
+Row upload failed : 10,Dillon,Britt, DillonBritt, 3/26/2019 20:40:51, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (10).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 11,Test,Test1, DillonBritt, 3/26/2019 20:40:51, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (11).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 12,Test2,Test5, DillonBritt, 3/26/2019 20:40:51, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (12).
+The statement has been terminated.
+-----------------------------------------------
