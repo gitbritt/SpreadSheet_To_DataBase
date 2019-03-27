@@ -1,0 +1,178 @@
+Row upload failed : ID,First_Name,Last_Name, DillonBritt, 3/27/2019 14:32:02, ::1
+Wrong Nuber of Columns in the file.
+-----------------------------------------------
+Row upload failed : 1,Dillon,Britt, DillonBritt, 3/27/2019 14:32:02, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+-----------------------------------------------
+Row upload failed : 2,Test,Test1, DillonBritt, 3/27/2019 14:32:02, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+-----------------------------------------------
+Row upload failed : 3,Test2,Test5, DillonBritt, 3/27/2019 14:32:02, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+-----------------------------------------------
+Row upload failed : ID,First_Name,Last_Name, DillonBritt, 3/27/2019 14:55:12, ::1
+Wrong Nuber of Columns in the file.
+-----------------------------------------------
+Row upload failed : 10,Dillon,Britt, DillonBritt, 3/27/2019 14:55:12, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+-----------------------------------------------
+Row upload failed : 11,Test,Test1, DillonBritt, 3/27/2019 14:55:12, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+-----------------------------------------------
+Row upload failed : 12,Test2,Test5, DillonBritt, 3/27/2019 14:55:12, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+-----------------------------------------------
+Row upload failed : ID,First_Name,Last_Name, DillonBritt, 3/27/2019 14:55:24, ::1
+Error with Column "Last_Name". The name needs to be the same name as the column in the database.
+-----------------------------------------------
+Row upload failed : ID,First_Name,Last_Name, DillonBritt, 3/27/2019 14:59:24, ::1
+Error with Column "Last_Name". The name needs to be the same name as the column in the database.
+-----------------------------------------------
+Row upload failed : 10,Dillon,Britt, DillonBritt, 3/27/2019 14:59:24, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (10).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 11,Test,Test1, DillonBritt, 3/27/2019 14:59:24, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (11).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 12,Test2,Test5, DillonBritt, 3/27/2019 14:59:24, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (12).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : ID,First_Name,Last_Name, DillonBritt, 3/27/2019 15:01:02, ::1
+Error with Column "Last_Name". The name needs to be the same name as the column in the database.
+-----------------------------------------------
+Row upload failed : ID,First_Name, DillonBritt, 3/27/2019 15:18:21, ::1
+Wrong Nuber of Columns in the file.
+-----------------------------------------------
+Row upload failed : 10,Dillon,Britt, DillonBritt, 3/27/2019 15:18:21, ::1
+Either there is a header with no data, or a Column with no header. Please make sure each column has just one header, and double check the headers are correct.
+
+-----------------------------------------------
+Row upload failed : 11,Test,Test1, DillonBritt, 3/27/2019 15:18:42, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (11).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 12,Test2,Test5, DillonBritt, 3/27/2019 15:18:42, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (12).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 10,Dillon,Britt, DillonBritt, 3/27/2019 15:19:13, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (10).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 11,Test,Test1, DillonBritt, 3/27/2019 15:19:13, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (11).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 12,Test2,Test5, DillonBritt, 3/27/2019 15:19:13, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (12).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 10,Dillon,Britt, DillonBritt, 3/27/2019 15:19:45, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (10).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 11,Test,Test1, DillonBritt, 3/27/2019 15:19:45, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (11).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 12,Test2,Test5, DillonBritt, 3/27/2019 15:19:45, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (12).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : ID,First_Name,Last_Name, DillonBritt, 3/27/2019 15:19:57, ::1
+Wrong Nuber of Columns in the file.
+-----------------------------------------------
+Row upload failed : 10,Dillon,Britt, DillonBritt, 3/27/2019 15:19:57, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+-----------------------------------------------
+Row upload failed : 11,Test,Test1, DillonBritt, 3/27/2019 15:19:57, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+-----------------------------------------------
+Row upload failed : 12,Test2,Test5, DillonBritt, 3/27/2019 15:19:57, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+-----------------------------------------------
+Row upload failed : 10,Dillon,Britt, DillonBritt, 3/27/2019 15:20:11, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (10).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 11,Test,Test1, DillonBritt, 3/27/2019 15:20:11, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (11).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 12,Test2,Test5, DillonBritt, 3/27/2019 15:20:11, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (12).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : ID,First_Name,Last_Name,Int_test, DillonBritt, 3/27/2019 18:27:32, ::1
+Wrong Nuber of Columns in the file.
+-----------------------------------------------
+Row upload failed : 10,Dillon,Britt,abc, DillonBritt, 3/27/2019 18:27:32, ::1
+You putting a string into a number column. Please change it to a number.
+-----------------------------------------------
+Row upload failed : 11,Test,Test1,dfe, DillonBritt, 3/27/2019 18:27:32, ::1
+You putting a string into a number column. Please change it to a number.
+-----------------------------------------------
+Row upload failed : 12,Test2,Test5,123, DillonBritt, 3/27/2019 18:27:32, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+-----------------------------------------------
+Row upload failed : ID,First_Name,Last_Name,Int_test, DillonBritt, 3/27/2019 18:28:36, ::1
+Error with Column "Int_test". The name needs to be the same name as the column in the database.
+-----------------------------------------------
+Row upload failed : 10,Dillon,Britt,abc, DillonBritt, 3/27/2019 18:28:36, ::1
+You putting a string into a number column. Please change it to a number.
+-----------------------------------------------
+Row upload failed : 11,Test,Test1,dfe, DillonBritt, 3/27/2019 18:28:36, ::1
+You putting a string into a number column. Please change it to a number.
+-----------------------------------------------
+Row upload failed : ID,First_Name,Last_Name,Int_test, DillonBritt, 3/27/2019 18:31:34, ::1
+Error with Column "Int_test". The name needs to be the same name as the column in the database.
+-----------------------------------------------
+Row upload failed : 10,Dillon,Britt,abc, DillonBritt, 3/27/2019 18:31:34, ::1
+You putting a string into a number column. Please change it to a number.
+-----------------------------------------------
+Row upload failed : 11,Test,Test1,dfe, DillonBritt, 3/27/2019 18:31:34, ::1
+You putting a string into a number column. Please change it to a number.
+-----------------------------------------------
+Row upload failed : 12,Test2,Test5,123, DillonBritt, 3/27/2019 18:31:34, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (12).
+The statement has been terminated.
+-----------------------------------------------
+Row upload failed : 10,Dillon,Britt,abc, DillonBritt, 3/27/2019 18:32:31, ::1
+You putting a string into a number column. Please change it to a number.
+-----------------------------------------------
+Row upload failed : 11,Test,Test1,dfe, DillonBritt, 3/27/2019 18:32:31, ::1
+You putting a string into a number column. Please change it to a number.
+-----------------------------------------------
+Row upload failed : 12,Test2,Test5,123, DillonBritt, 3/27/2019 18:32:31, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_3__3214EC2736181660'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (12).
+The statement has been terminated.
+-----------------------------------------------
