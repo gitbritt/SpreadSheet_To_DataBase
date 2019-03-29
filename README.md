@@ -1,7 +1,11 @@
-# SpreadSheet_To_DataBase
+# Spreadsheet uploader
+
+#About
 This is my Senior Project from Southern Adventist University.
 
-Requirements
+This is an ASP.NET web application that checks for errors in spreadsheets. If the spread sheet is error free it uploads it to a specified database table.
+
+#Requirements
 -Visual Studio
 -SQL Sever
 -ASP.NET/C#
