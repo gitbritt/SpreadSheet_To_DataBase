@@ -58,6 +58,8 @@
         <p class="auto-style8">
             <strong>Also make sure that the data starts on row 1, column 1. It can cause issues if it&#39;s in the middle of the page.</strong></p>
         <p class="auto-style8">
+            <strong>Make sure there are no commas in the spread sheet. It will mess it up if there is.</strong></p>
+        <p class="auto-style8">
             <asp:FileUpload ID="Browse_file" runat="server" accept=".xlsx,.csv" />
             <asp:Button ID="Preview_db_button" runat="server" Text="Preview Database" OnClick="Preview_button_Click" UseSubmitBehavior="False" />
         </p>

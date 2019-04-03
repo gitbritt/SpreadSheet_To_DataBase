@@ -100,7 +100,7 @@ namespace SpreadSheet_To_DataBase
             try
             {
                 SqlCommand sql_preview_headers_cmd = new SqlCommand("SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE (TABLE_SCHEMA + '.' + TABLE_NAME) = '" + Select_Table.Text + "' order by ORDINAL_POSITION", conn);
-                SqlCommand sql_preview_table = new SqlCommand("SELECT top 1 * FROM " + Select_Table.Text, conn);
+                SqlCommand sql_preview_table = new SqlCommand("SELECT top 1 * FROM " + Select_Table.Text + " order by 1 desc", conn);
                 SqlDataReader reader = sql_preview_headers_cmd.ExecuteReader();
                 int num_columns = 0; 
                 string str = "<table border='1'><tr>";
@@ -185,7 +185,7 @@ namespace SpreadSheet_To_DataBase
 
         protected void Start_Click(object sender, EventArgs e)
         {
-            //try
+            try
             {
                 selected_table = Select_Table.Text;
                 
@@ -230,18 +230,27 @@ namespace SpreadSheet_To_DataBase
 
 
                     Error_display.InnerText = error_str;
-                    error_str = "";
+                    System.Diagnostics.Debug.WriteLine("test : " + error_str);
+                    
                     //Cleans up Files
+                    string username = Environment.UserName;//Microsfot user account name
+                    var path2 = System.Web.HttpContext.Current.Server.MapPath("/temp/");//Path for temp file
+                    string temp_file = (path2 + file_name + username + ".csv");
+                    if(error_str == "")
+                      File.Delete(temp_file);
+                    
                     File.Delete(filelocation);
                     File.Delete(filelocation + ".csv");
 
+
+                    error_str = "";//Sets back to ""
                 }
             
             }
-            //catch (Exception ex)
+            catch (Exception ex)
             {
-                //File_status.InnerHtml = "Error. Please try again, and check Database connection.";
-                //System.Diagnostics.Debug.WriteLine(ex);
+                File_status.InnerHtml = "Error. Please try again, and check Database connection.";
+                System.Diagnostics.Debug.WriteLine(ex);
             }
         }
 
@@ -252,9 +261,6 @@ namespace SpreadSheet_To_DataBase
             error = error_;
             if(error_ == true)
                 error_str = error_str + error_message + "\n----------------\n";
-
-           // System.Diagnostics.Debug.WriteLine("Error being passed in : " + error_message);
-
         }
 
         protected void Select_Table_SelectedIndexChanged1(object sender, EventArgs e)

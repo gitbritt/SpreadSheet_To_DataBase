@@ -20,13 +20,17 @@ namespace SpreadSheet_To_DataBase
             string username = Environment.UserName;
             string date = DateTime.Now.ToString("yyyy_MM_dd");
             string time = DateTime.Now.ToString();
+
             
+
             row_str =  "Successfully uploaded : " +row_str + ", " + username + ", " + time + ", " + user_ip +  Environment.NewLine;
             
             string txt_file = path + file_name + username + "_" + date + ".txt";
-            
+
             if (row_str != "" || string.IsNullOrEmpty(row_str) == true || string.IsNullOrWhiteSpace(row_str) == true)
+            {
                 File.AppendAllText(txt_file, row_str);
+            }
 
 
         }

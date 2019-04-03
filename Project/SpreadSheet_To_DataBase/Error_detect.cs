@@ -26,17 +26,18 @@ namespace SpreadSheet_To_DataBase
         public bool error(string row_str, int row, string file_name)
         {
             
-            WebForm1 Edit_Html = new WebForm1();
-            bool error_bool = false;
-            
-            string error_message = "";
-            int Col_count = row_str.Split(',').Length;
-            string header = "No error \n";
-            string[] cells = row_str.Split(',');
-            
-            SqlConnection conn = WebForm1.conn;
-            
-            
+                WebForm1 Edit_Html = new WebForm1();
+                bool error_bool = false;
+
+                string error_message = "";
+                int Col_count = row_str.Split(',').Length;
+                string header = "No error \n";
+                string[] cells = row_str.Split(',');
+
+                SqlConnection conn = WebForm1.conn;
+
+            try
+            {
                 if (row == 0)
                 {
 
@@ -72,41 +73,52 @@ namespace SpreadSheet_To_DataBase
 
                 }
                 reader_.Close();
-            if (row == 0 && Col_count == Col_Num)//Checks to see if the Column name on the local file (Header) is the same on the database
+                if (row == 0 && Col_count == Col_Num)//Checks to see if the Column name on the local file (Header) is the same on the database
                 {
                     for (int i = 0; i < Col_Num; i++)
                     {
-                        //System.Diagnostics.Debug.WriteLine(header_name[i] + " " + cells[i]);
+                        
                         if (cells[i] != header_name[i])//If header on file is not the same as the Database header, give error
                         {
                             error_bool = true;
-                            error_message = "Error with Column \"" + cells[i] + "\". The name needs to be the same name as the column in the database.";
+                            error_message = "Error with Column \"" + cells[i] + "\". The name needs to be the same name as the column in the database. Make sure that there are no extra spaces at the end.";
+
                         }
+
                     }
                 }
                 else if (row == 0)
                 {
                     error_bool = true;
-                    error_message = "Wrong Nuber of Columns in the file.";
+                    error_message = "Wrong Nuber of Columns in the file. The error's below are stating the indivudal rows.";
                 }
-            
 
-            /////Checks for correct data types
-            if(row != 0)
-            {
 
-                for(int i = 0; i< Col_count; i++)
+                /////Checks for correct data types
+                if (row != 0)
                 {
-                    bool isint = int.TryParse(cells[i], out int n);
-                    if(datatype[i] == "int" && isint == false)
+                    for (int i = 0; i < Col_Num; i++)
                     {
-                        error_message = "You putting a string into a number column. Please change it to a number.";
-                        error_bool = true;
+                        bool isint = int.TryParse(cells[i], out int n);
+                        if (datatype[i] == "int" && isint == false)
+                        {
+                            error_message = "You putting a string into a number column. Please change it to a number.";
+                            error_bool = true;
+                        }
                     }
+
+
                 }
 
-            }
 
+
+                error_message = error_message + " \n Row number : " + row;
+            }
+            catch (Exception ex)
+            {
+                error_message = ex.Message.ToString();
+                error_bool = true;
+            }
 
             Logs log_error = new Logs();
             if(error_bool == true)
