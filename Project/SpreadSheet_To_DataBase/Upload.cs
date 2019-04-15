@@ -60,6 +60,8 @@ namespace SpreadSheet_To_DataBase
                         string message;
                         if (ex.Number == 2627)
                             message = "You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. \n" + ex.Message + "\n Row number : " + row + "\n Error number : " + ex.Number;
+                        else if (ex.Number == 245)
+                            message = "You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : \n" + ex.Message + "\nRow number : " + row;
                         else if (ex.Number == 241)
                             message = "You can only put a date in a date column. See more details below. \n" + ex.Message + "\n Row number : " + row + "\n Error number : " + ex.Number + "\n" + row_str;
                         else
