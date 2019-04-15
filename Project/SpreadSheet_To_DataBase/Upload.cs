@@ -29,13 +29,14 @@ namespace SpreadSheet_To_DataBase
             bool resume_old_file = File.ReadAllText(temp_file).Contains(row_str)? true : false;
             string temp_row = "";
             Logs log = new Logs();
-            if(resume_old_file == false)
+
+            if (resume_old_file == false)
             {
                 if (error_result == false && new_row != 0)
                 {
                     try
                     {
-                        
+
                         sql_row = row_str.Insert(0, "'") + "'";
                         sql_row = sql_row.Replace(",", "','");
                         string insert_sql = "INSERT INTO " + table_name + " VALUES(" + sql_row + ")";
@@ -58,9 +59,11 @@ namespace SpreadSheet_To_DataBase
 
                         string message;
                         if (ex.Number == 2627)
-                            message = "You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. \n" + ex.Message + "\n Row number : " + row;
+                            message = "You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. \n" + ex.Message + "\n Row number : " + row + "\n Error number : " + ex.Number;
+                        else if (ex.Number == 241)
+                            message = "You can only put a date in a date column. See more details below. \n" + ex.Message + "\n Row number : " + row + "\n Error number : " + ex.Number + "\n" + row_str;
                         else
-                            message = "There was an error in processing the data. More details are below. Please contact your administrator for questions.\n" + ex.Message + "\n Row number : " + row;
+                            message = "There was an error in processing the data. More details are below. Please contact your administrator for questions.\n" + ex.Message + "\n Row number : " + row + "\n Error number : " + ex.Number;
 
                         issue.SendToForm(message, true);
                         log_advaced_errors.failed_uploads(row_str, file_name, message);

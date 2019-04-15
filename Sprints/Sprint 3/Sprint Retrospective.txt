@@ -1,0 +1,11 @@
+Sprint retrospective
+--------------------
+What worked:
+understang that there was an issue with reuploading the data. I was able to come up with a quick solution
+that solves the reuploading issue.
+Tests have passed manually.
+Everything is mostly done (with a few things).
+
+What did not go as well:
+Checking in several times a week.
+Became hard because of graduation + job hunt + and school.

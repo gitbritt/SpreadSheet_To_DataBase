@@ -178,7 +178,7 @@ namespace SpreadSheet_To_DataBase
                     file_name = file_name + "_" + (random_number.ToString());
                 }
             }
-            System.Diagnostics.Debug.WriteLine(file_name);
+            
             
             return file_name;
         }
@@ -218,20 +218,20 @@ namespace SpreadSheet_To_DataBase
                     //File reader
                     if (type == "csv")
                     {
-                        System.Diagnostics.Debug.WriteLine("File : CSV");
+                        
                         read_files.csv_reader(filelocation);
                     }
                     else if (type == "xlsx")
                     {
-                        System.Diagnostics.Debug.WriteLine("File : XLSX");
+                        
                         read_files.xlsx_reader(Server.MapPath(location), Browse_file.FileName);//Sends location of the file on server and file name
                     }
                     //Display Human readable errors
 
-
                     Error_display.InnerText = error_str;
-                    System.Diagnostics.Debug.WriteLine("test : " + error_str);
-                    
+                    if(error == false)
+                        Error_display.InnerText = "Successcully Uploaded.\n\n";
+
                     //Cleans up Files
                     string username = Environment.UserName;//Microsfot user account name
                     var path2 = System.Web.HttpContext.Current.Server.MapPath("/temp/");//Path for temp file
@@ -250,7 +250,6 @@ namespace SpreadSheet_To_DataBase
             catch (Exception ex)
             {
                 File_status.InnerHtml = "Error. Please try again, and check Database connection.";
-                System.Diagnostics.Debug.WriteLine(ex);
             }
         }
 
@@ -259,8 +258,9 @@ namespace SpreadSheet_To_DataBase
         {
             
             error = error_;
-            if(error_ == true)
+            if (error_ == true)
                 error_str = error_str + error_message + "\n----------------\n";
+
         }
 
         protected void Select_Table_SelectedIndexChanged1(object sender, EventArgs e)

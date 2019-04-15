@@ -60,6 +60,10 @@
         <p class="auto-style8">
             <strong>Make sure there are no commas in the spread sheet. It will mess it up if there is.</strong></p>
         <p class="auto-style8">
+            <strong>For Dates in excel, Format them as &quot;Jan 1 1970&quot;. No commas.</strong></p>
+        <p class="auto-style8">
+            &nbsp;</p>
+        <p class="auto-style8">
             <asp:FileUpload ID="Browse_file" runat="server" accept=".xlsx,.csv" />
             <asp:Button ID="Preview_db_button" runat="server" Text="Preview Database" OnClick="Preview_button_Click" UseSubmitBehavior="False" />
         </p>

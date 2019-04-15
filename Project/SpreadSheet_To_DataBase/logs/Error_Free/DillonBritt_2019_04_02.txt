@@ -1,3 +1,0 @@
-Successfully uploaded : 1,Dillon,Britt,1, DillonBritt, 4/2/2019 15:01:42, ::1
-Successfully uploaded : 2,Test,Test1,2, DillonBritt, 4/2/2019 15:01:42, ::1
-Successfully uploaded : 3,Test2,Test5,3, DillonBritt, 4/2/2019 15:01:43, ::1

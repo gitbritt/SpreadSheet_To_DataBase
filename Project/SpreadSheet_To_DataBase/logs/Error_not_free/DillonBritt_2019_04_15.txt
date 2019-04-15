@@ -1,0 +1,845 @@
+Row upload failed : 0,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:10:54, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:10:54, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:10:54, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:10:54, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:10:54, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:10:54, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:10:55, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:10:55, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:10:55, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:16:21, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:16:22, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:16:22, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:16:22, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:16:22, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:16:22, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:16:23, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:16:23, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:16:23, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:29:37, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:29:37, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:29:37, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:29:37, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:29:37, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:29:37, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:29:37, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:29:37, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:29:37, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:31:33, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:31:33, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:31:33, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:31:33, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:31:33, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:31:33, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:31:33, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:31:33, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 11:31:33, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : ID,Name,Address,Date,Age,Location,Job,Salary, DillonBritt, 4/15/2019 14:17:05, ::1
+ExecuteReader requires an open and available Connection. The connection's current state is closed.
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:17:05, ::1
+ExecuteReader requires an open and available Connection. The connection's current state is closed.
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:17:05, ::1
+ExecuteReader requires an open and available Connection. The connection's current state is closed.
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:17:05, ::1
+ExecuteReader requires an open and available Connection. The connection's current state is closed.
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:17:05, ::1
+ExecuteReader requires an open and available Connection. The connection's current state is closed.
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:17:05, ::1
+ExecuteReader requires an open and available Connection. The connection's current state is closed.
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:17:05, ::1
+ExecuteReader requires an open and available Connection. The connection's current state is closed.
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:17:05, ::1
+ExecuteReader requires an open and available Connection. The connection's current state is closed.
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:17:05, ::1
+ExecuteReader requires an open and available Connection. The connection's current state is closed.
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:17:05, ::1
+ExecuteReader requires an open and available Connection. The connection's current state is closed.
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:32:38, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:32:38, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:32:38, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:32:38, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:32:38, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:32:38, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:32:39, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:32:39, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:32:39, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:43:15, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:43:15, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:43:15, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:43:15, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:43:15, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:43:15, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:43:15, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:43:15, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:43:15, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:44:40, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:44:40, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:44:40, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:44:40, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:44:41, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:44:41, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:44:41, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:44:41, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 14:44:41, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:36:42, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:36:42, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:36:42, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:36:42, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:36:42, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:36:42, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:36:42, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:36:42, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:36:42, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:38:47, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:38:47, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:38:47, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:38:47, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:38:47, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:38:47, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:38:47, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:38:47, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:38:47, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:46:12, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:46:12, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:46:12, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:46:12, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:46:12, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:46:12, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:46:12, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:46:12, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:46:12, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:47:16, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:47:16, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:47:16, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:47:16, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:47:16, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:47:16, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:47:16, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:47:17, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:47:17, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:51:48, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:51:48, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:51:48, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:51:48, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:51:48, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:51:48, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:51:48, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:51:48, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/15/2019 15:51:48, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : ID,Name,Address,Date,Age,Location,Job,Salary,Salary, DillonBritt, 4/15/2019 15:59:12, ::1
+Wrong Nuber of Columns in the file. The error's below are stating the indivudal rows.
+ 
+ Row number : 0
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000,50000, DillonBritt, 4/15/2019 15:59:12, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 1
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000,50000, DillonBritt, 4/15/2019 15:59:12, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 2
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000,50000, DillonBritt, 4/15/2019 15:59:12, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 3
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000,50000, DillonBritt, 4/15/2019 15:59:12, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 4
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000,50000, DillonBritt, 4/15/2019 15:59:12, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 5
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000,50000, DillonBritt, 4/15/2019 15:59:12, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 6
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000,50000, DillonBritt, 4/15/2019 15:59:12, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 7
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000,50000, DillonBritt, 4/15/2019 15:59:12, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 8
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000,50000, DillonBritt, 4/15/2019 15:59:12, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 9
+ Error number : 213
+-----------------------------------------------

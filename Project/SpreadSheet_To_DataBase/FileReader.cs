@@ -57,14 +57,9 @@ namespace SpreadSheet_To_DataBase
             int new_row = 0;
             while((row_str = file.ReadLine())!= null && string.IsNullOrWhiteSpace(row_str) != true)
             {
-                
-            
                     upload.upload(new_row, row, row_str, file_name);
                     row++;
                     new_row++;
-                    //System.Diagnostics.Debug.WriteLine(row_str);
-            
-
             }
 
             file.Close();
@@ -105,7 +100,7 @@ namespace SpreadSheet_To_DataBase
                 }
 
                 row_str = row_str.TrimEnd(',');
-                //System.Diagnostics.Debug.WriteLine(row_str);
+                
                 to_csv(file_location, file_name, row_str);//Sends all info to CSV file format
                 
                 row_str = "";
@@ -125,10 +120,11 @@ namespace SpreadSheet_To_DataBase
             {
                 File.Create(csv_file).Close();
             }
-            if(row_str != "" || string.IsNullOrEmpty(row_str) == true|| string.IsNullOrWhiteSpace(row_str) == true)
+            
+
+            if(String.IsNullOrWhiteSpace(row_str) == false)
                 File.AppendAllText(csv_file, row_str);
             
         }
-        
     }
 }

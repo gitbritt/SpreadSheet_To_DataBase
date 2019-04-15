@@ -81,7 +81,7 @@ namespace SpreadSheet_To_DataBase
                         if (cells[i] != header_name[i])//If header on file is not the same as the Database header, give error
                         {
                             error_bool = true;
-                            error_message = "Error with Column \"" + cells[i] + "\". The name needs to be the same name as the column in the database. Make sure that there are no extra spaces at the end.";
+                            error_message = "Error with Column \"" + cells[i] + "\". The name needs to be the same name as the column in the database. Make sure that there are no extra spaces at the end.\n";
 
                         }
 
@@ -90,26 +90,11 @@ namespace SpreadSheet_To_DataBase
                 else if (row == 0)
                 {
                     error_bool = true;
-                    error_message = "Wrong Nuber of Columns in the file. The error's below are stating the indivudal rows.";
+                    error_message = "Wrong Nuber of Columns in the file. The error's below are stating the indivudal rows.\n";
                 }
 
 
-                /////Checks for correct data types
-                if (row != 0)
-                {
-                    for (int i = 0; i < Col_Num; i++)
-                    {
-                        bool isint = int.TryParse(cells[i], out int n);
-                        if (datatype[i] == "int" && isint == false)
-                        {
-                            error_message = "You putting a string into a number column. Please change it to a number.";
-                            error_bool = true;
-                        }
-                    }
-
-
-                }
-
+                
 
 
                 error_message = error_message + " \n Row number : " + row;
@@ -120,11 +105,14 @@ namespace SpreadSheet_To_DataBase
                 error_bool = true;
             }
 
+            
+
             Logs log_error = new Logs();
             if(error_bool == true)
             {
                 log_error.failed_uploads(row_str, file_name, error_message);
             }
+            
 
             Edit_Html.SendToForm(error_message, error_bool);
             error_message = "";
