@@ -24,9 +24,7 @@
             <h1 class="auto-style8">&nbsp;</h1>
             <h1 class="auto-style8">Spreadsheet to DataBase</h1>
             <p class="auto-style8">Database Type :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:DropDownList ID="DropDownList1" runat="server">
-                    <asp:ListItem>Microsoft SQL Server</asp:ListItem>
-                    <asp:ListItem>MySQL</asp:ListItem>
+                <asp:DropDownList ID="DropDownList1" runat="server" Enabled="False">
                 </asp:DropDownList>
             </p>
             <p class="auto-style8">Database Host :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
