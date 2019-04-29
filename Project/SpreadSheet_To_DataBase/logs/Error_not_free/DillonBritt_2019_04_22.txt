@@ -1,0 +1,467 @@
+Row upload failed : ID,Name,Address,Date,Age,Location,Job,Salary,Salary, DillonBritt, 4/22/2019 13:56:50, ::1
+Wrong Nuber of Columns in the file. The error's below are stating the indivudal rows.
+ 
+ Row number : 0
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 13:56:50, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 1
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 13:56:50, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 2
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 13:56:50, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 3
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 13:56:51, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 4
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 13:56:51, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 5
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 13:56:51, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 6
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 13:56:51, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 7
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 13:56:51, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 8
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 13:56:51, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 9
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:07:17, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:07:17, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:07:17, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:07:17, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:07:17, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:07:17, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:07:17, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:07:17, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:07:18, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Not Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:08:36, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 10
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:09:43, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:09:43, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:09:43, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:09:43, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:09:43, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:09:43, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:09:44, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:09:44, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:09:44, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Not Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:10:27, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 10
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:17:13, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 1
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:17:13, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 2
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:17:13, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 3
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:17:13, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 4
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:17:13, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 5
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:17:13, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 6
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:17:13, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 7
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:17:13, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 8
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:17:13, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 9
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Hello,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:18:12, ::1
+You can only put a date in a date column. See more details below. 
+Conversion failed when converting date and/or time from character string.
+ Row number : 1
+ Error number : 241
+0,Dillon,Earth,Hello,Test,America,Programmer,50000
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:18:12, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 2
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:18:12, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 3
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:18:12, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 4
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:18:12, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 5
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:18:12, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 6
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:18:12, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 7
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:18:12, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 8
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 14:18:12, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 9
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:33:03, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (0).
+The statement has been terminated.
+ Row number : 1
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:33:03, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (1).
+The statement has been terminated.
+ Row number : 2
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:33:03, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (2).
+The statement has been terminated.
+ Row number : 3
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:33:03, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (3).
+The statement has been terminated.
+ Row number : 4
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:33:03, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (4).
+The statement has been terminated.
+ Row number : 5
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:33:04, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (5).
+The statement has been terminated.
+ Row number : 6
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:33:04, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (6).
+The statement has been terminated.
+ Row number : 7
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:33:04, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 8
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 14:33:04, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (8).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
+Row upload failed : ID,Name,Address,Date,Age,Location,Job,Salary,Salary, DillonBritt, 4/22/2019 15:28:34, ::1
+Wrong Nuber of Columns in the file. The error's below are stating the indivudal rows.
+ 
+ Row number : 0
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 15:28:34, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 1
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 15:28:34, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 2
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 15:28:34, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 3
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 15:28:34, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 4
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 15:28:34, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 5
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 15:28:34, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 6
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 15:28:34, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 7
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 15:28:34, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 8
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,1/1/1970,26,America,Programmer,50000,50000, DillonBritt, 4/22/2019 15:28:34, ::1
+There was an error in processing the data. More details are below. Please contact your administrator for questions.
+Column name or number of supplied values does not match table definition.
+ Row number : 9
+ Error number : 213
+-----------------------------------------------
+Row upload failed : 0,Dillon,Earth,Hello,Test,America,Programmer,50000, DillonBritt, 4/22/2019 15:29:46, ::1
+You can only put a date in a date column. See more details below. 
+Conversion failed when converting date and/or time from character string.
+ Row number : 1
+ Error number : 241
+0,Dillon,Earth,Hello,Test,America,Programmer,50000
+-----------------------------------------------
+Row upload failed : 1,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 15:29:46, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 2
+-----------------------------------------------
+Row upload failed : 2,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 15:29:46, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 3
+-----------------------------------------------
+Row upload failed : 3,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 15:29:46, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 4
+-----------------------------------------------
+Row upload failed : 4,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 15:29:46, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 5
+-----------------------------------------------
+Row upload failed : 5,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 15:29:46, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 6
+-----------------------------------------------
+Row upload failed : 6,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 15:29:46, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 7
+-----------------------------------------------
+Row upload failed : 7,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 15:29:46, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 8
+-----------------------------------------------
+Row upload failed : 8,Dillon,Earth,Jan 1 1970,Test,America,Programmer,50000, DillonBritt, 4/22/2019 15:29:46, ::1
+You are trying to put a word into a number column, or a number into a word column. Please make sure numbers go in number columns and word's go into word columns. More info is below : 
+Conversion failed when converting the varchar value 'Test' to data type int.
+Row number : 9
+-----------------------------------------------
+Row upload failed : 7,Not Dillon,Earth,1/1/1970,26,America,Programmer,50000, DillonBritt, 4/22/2019 15:32:54, ::1
+You have a duplicate unique ID. Please make sure all rows have a unique ID.  More info is below. 
+Violation of PRIMARY KEY constraint 'PK__Table_1__3214EC27EA0419EF'. Cannot insert duplicate key in object 'dbo.Table_1'. The duplicate key value is (7).
+The statement has been terminated.
+ Row number : 9
+ Error number : 2627
+-----------------------------------------------
