@@ -1,23 +1,31 @@
 # Spreadsheet uploader
 
-#About
+# About
 This is my Senior Project from Southern Adventist University.
 
-This is an ASP.NET web application that checks for errors in spreadsheets. If the spread sheet is error free it uploads it to a specified database table.
+This Project is a software that allows ease of accesses for uploading spread sheet data staright to a database. 
 
-#Requirements
+What it does:
+
+  Takes spreadsheet and uploads to Database
+
+  Communicates any errors to the user
+
+  Logs all uploads
+
+# Requirements
 -Visual Studio
 -SQL Sever
--ASP.NET/C#
+-ASP.NET/C sharp
 -EPPlus libary
 
 
-
+# Required Libaries
 To install Epplus libary, check out these links below
 
 https://www.nuget.org/packages/EPPlus/
 
 https://docs.microsoft.com/en-us/nuget/tools/package-manager-console
 
-#Screenshot
+# Screenshot
 ![Image description](https://github.com/gitbritt/SpreadSheet_To_DataBase/blob/master/spread_sheet_DB.JPG)
