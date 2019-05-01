@@ -3,7 +3,7 @@
 # About
 This is my Senior Project from Southern Adventist University.
 
-This Project is a software that allows ease of accesses for uploading spread sheet data staright to a database. 
+This Project is a software that allows ease of accesses for uploading spread sheet data staright to a database. Office does not need to be installed on the server for it to read Excel files.
 
 <br>
 
