@@ -113,6 +113,7 @@
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="home.aspx" />
+    <Content Include="LoginPage.aspx" />
     <Content Include="WebUserControl1.ascx" />
   </ItemGroup>
   <ItemGroup>
@@ -135,6 +136,13 @@
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Upload.cs" />
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebUserControl1.ascx.cs">
       <DependentUpon>WebUserControl1.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
