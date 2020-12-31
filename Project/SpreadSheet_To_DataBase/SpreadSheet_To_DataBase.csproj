@@ -110,6 +110,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\AccountManage.aspx" />
+    <Content Include="Admin\AddAccount.aspx" />
+    <Content Include="Admin\Admin.aspx" />
+    <Content Include="Admin\DatabaseSettings.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="home.aspx" />
@@ -117,6 +121,34 @@
     <Content Include="WebUserControl1.ascx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\AccountManage.aspx.cs">
+      <DependentUpon>AccountManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccountManage.aspx.designer.cs">
+      <DependentUpon>AccountManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddAccount.aspx.cs">
+      <DependentUpon>AddAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddAccount.aspx.designer.cs">
+      <DependentUpon>AddAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DatabaseSettings.aspx.cs">
+      <DependentUpon>DatabaseSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DatabaseSettings.aspx.designer.cs">
+      <DependentUpon>DatabaseSettings.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Error_detect.cs">
