@@ -77,7 +77,6 @@
             Error Messages</p>
         <p class="auto-style8" id="testing" runat="server">
             <textarea id="Error_display" runat="server" class="auto-style9" name="S1" value ="Errors: "></textarea></p>
-    </form>
     <p runat="server" class="auto-style8">
         &nbsp;</p>
     <p runat="server" class="auto-style8">
@@ -90,5 +89,8 @@
         Download Your logs </p>
     <p runat="server" class="auto-style8">
         For help or issues, report them here : <a href="https://github.com/gitbritt/SpreadSheet_To_DataBase/issues">https://github.com/gitbritt/SpreadSheet_To_DataBase/issues</a></p>
-</body>
+        <p runat="server" class="auto-style8">
+            <a dir="auto" href="Admin/Admin.aspx">Admin page</a></p>
+    </form>
+    </body>
 </html>

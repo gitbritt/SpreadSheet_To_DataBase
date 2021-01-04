@@ -266,7 +266,6 @@ namespace SpreadSheet_To_DataBase
         protected void Select_Table_SelectedIndexChanged1(object sender, EventArgs e)
         {
             
-            
         }
     }
 }

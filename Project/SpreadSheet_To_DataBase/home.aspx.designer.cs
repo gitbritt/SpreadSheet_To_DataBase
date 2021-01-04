@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SpreadSheet_To_DataBase {
-    
-    
-    public partial class WebForm1 {
-        
+namespace SpreadSheet_To_DataBase
+{
+
+
+    public partial class WebForm1
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// DropDownList1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-        
+
         /// <summary>
         /// Database_host control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Database_host;
-        
+
         /// <summary>
         /// Database_name control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Database_name;
-        
+
         /// <summary>
         /// account_authorized control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox account_authorized;
-        
+
         /// <summary>
         /// Database_username control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Database_username;
-        
+
         /// <summary>
         /// Database_password control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Database_password;
-        
+
         /// <summary>
         /// Connect_button control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Connect_button;
-        
+
         /// <summary>
         /// Select_Table control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList Select_Table;
-        
+
         /// <summary>
         /// Browse_file control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.FileUpload Browse_file;
-        
+
         /// <summary>
         /// Preview_db_button control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Preview_db_button;
-        
+
         /// <summary>
         /// File_status control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl File_status;
-        
+
         /// <summary>
         /// Preview_table control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Preview_table;
-        
+
         /// <summary>
         /// Start control.
         /// </summary>
@@ -137,7 +139,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Start;
-        
+
         /// <summary>
         /// testing control.
         /// </summary>
@@ -146,7 +148,7 @@ namespace SpreadSheet_To_DataBase {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl testing;
-        
+
         /// <summary>
         /// Error_display control.
         /// </summary>

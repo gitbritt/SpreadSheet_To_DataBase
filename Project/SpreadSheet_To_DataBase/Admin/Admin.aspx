@@ -9,10 +9,14 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <strong>Admin Page</strong></div>
+            <strong>Admin Page<br />
+            </strong>
+        </div>
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admin/AddAccount.aspx">Add Account</asp:HyperLink>
         <br />
+        <br />
         <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Admin/AccountManage.aspx">Account Manage</asp:HyperLink>
+        <br />
         <br />
         <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Admin/DatabaseSettings.aspx">Database Settings</asp:HyperLink>
     </form>

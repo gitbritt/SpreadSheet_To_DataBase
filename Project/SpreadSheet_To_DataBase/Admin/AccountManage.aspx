@@ -6,10 +6,10 @@
 <head runat="server">
     <title></title>
 </head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
+<body id="Test">
+    
+    <div id="UserListDiv" runat ="server">
+    </div>
+        
 </body>
 </html>
